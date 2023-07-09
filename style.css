@@ -1,0 +1,27 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav bar style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+
+}
+
+nav {
+    display: flex;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
