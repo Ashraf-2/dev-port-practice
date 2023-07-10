@@ -231,3 +231,29 @@ nav a {
   text-align: center;
   margin: 30px;
 }
+/* footer section styles */
+footer{
+  background-color: #fff8f3;
+  display: flex;
+  margin: 0px;
+  padding: 60px 120px;
+  justify-content: center;
+  gap: 120px;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  border: 0px;
+
+}
+.icon{
+  display: flex;
+  gap: 15px;
+}
+
+.footer-column{
+  width: 50%;
+}
