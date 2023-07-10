@@ -40,7 +40,7 @@ nav {
   font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
   display: flex;
   align-items: center;
 }
@@ -69,18 +69,22 @@ nav a {
   align-items: center;
   justify-content: space-between;
 }
+
 .banner-content {
   max-width: 500px;
 }
+
 .banner .profile-pic {
   width: 500px;
 }
+
 .banner-greeting {
   font-size: 45px;
   font-weight: 300;
   color: #474747;
   margin-bottom: 0;
 }
+
 .banner-title {
   font-size: 80px;
   font-weight: 700;
@@ -89,10 +93,11 @@ nav a {
 }
 
 /* main section styles */
-.main{
+.main {
   max-width: 1140px;
   margin: 0 auto;
 }
+
 .about {
   margin: 120px 130px;
   padding: 30px 150px;
@@ -106,6 +111,7 @@ nav a {
   font-size: 35px;
   font-weight: 700;
 }
+
 .section-description {
   color: var(--dark-03, #757575);
   text-align: center;
@@ -113,33 +119,70 @@ nav a {
   font-weight: 400;
   line-height: 30px;
 }
-.about-info-container{
+
+.about-info-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.about-info{
+
+.about-info {
   text-align: center;
 }
-.info-title{
+
+.info-title {
   font-weight: normal;
 }
-.info-description{
+
+.info-description {
   font-weight: bold;
 }
 
 /* what i do section styles */
-#what-i-do-description{
+.what-i-do{
   /* margin: 120px 130px; */
-  padding: 30px 150px;
+  margin: 20px 115px;
+  /* padding: 20px 0px; */
+  /* padding: 10px 150px; */
 }
-.services{
+
+#what-i-do-description {
+  /* margin: 120px 130px; */
+  font-size: 15px ;
+  font-weight: 400;
+  padding:0px 170px ;
+}
+
+.skills-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
+  gap:25px;
+  /* padding: 0px 150px; */
 }
-.skills{
+
+.skills {
   background-color: white;
   box-shadow: #474747;
+  width: 265px;
+  height: 330px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  
+  /* box shadow bujini */
+  
+  padding: 30px;
+}
+
+.skill-title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
