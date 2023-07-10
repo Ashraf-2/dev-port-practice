@@ -94,9 +94,10 @@ nav a {
   margin: 0 auto;
 }
 .about {
-  margin: 130px 0px;
-  padding: 100px;
+  margin: 120px 130px;
+  padding: 30px 150px;
   background-color: #fff8f3;
+
 }
 
 .section-title {
@@ -128,6 +129,10 @@ nav a {
 }
 
 /* what i do section styles */
+#what-i-do-description{
+  /* margin: 120px 130px; */
+  padding: 30px 150px;
+}
 .services{
   display: flex;
   justify-content: space-around;
